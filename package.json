@@ -1,0 +1,13 @@
+{
+  "name": "shopify-calendar",
+  "version": "0.0.1",
+  "description": "..",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.9.8",
+    "fetch": "^1.1.0"
+  }
+}
