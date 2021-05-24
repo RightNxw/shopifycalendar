@@ -1,83 +1,48 @@
-const cheerio = require("cheerio");
-const got = require("got");
+const fetch = require("node-fetch");
+const express = require("express");
+const { clientID, clientSecret, port } = require("./config.json");
 
-const domain = "https://www.shoepalace.com";
-const urlShoes = domain + "/pages/releases";
+const app = express();
 
-const fetchHtml = async (url) => {
-  try {
-    return (await got(url)).body;
-  } catch (e) {
-    console.error(e);
-  }
-};
+app.get("/", async ({ query }, response) => {
+  const { code } = query;
 
-const showShoe = ({ name, date, url, srcImage, newStock }) => {
-  const separetor = `---------------`;
-  const outputLiteral = [
-    separetor,
-    `Name: ${name}`,
-    `Date: ${date}`,
-    `Link: ${url}`,
-    `SrcImage: ${srcImage}`,
-    `Stock: ${newStock}`,
-    separetor,
-  ];
-  console.log(outputLiteral);
-};
+  if (code) {
+    try {
+      const oauthResult = await fetch("https://discord.com/api/oauth2/token", {
+        method: "POST",
+        body: new URLSearchParams({
+          client_id: clientID,
+          client_secret: clientSecret,
+          code,
+          grant_type: "authorization_code",
+          redirect_uri: `http://localhost:${port}`,
+          scope: "identify",
+        }),
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      });
 
-const getShoes = async () => {
-  const html = await fetchHtml(urlShoes);
+      const oauthData = await oauthResult.json();
 
-  if (typeof html === "string") {
-    const $ = cheerio.load(html);
-    const shoes = $(".vb > .js-collectionBlock");
-    const shoesValues = [];
+      const userResult = await fetch("https://discord.com/api/users/@me", {
+        headers: {
+          authorization: `${oauthData.token_type} ${oauthData.access_token}`,
+        },
+      });
 
-    for (shoe of shoes) {
-      const shoeSelector = $.load(shoe);
-      const image = $(shoeSelector(".collectionBlock-image"));
-      const name = image.attr("title");
-      const url =
-        domain + image.find(".collectionBlock-image__link").attr("href");
-      const day = $(shoeSelector(".date > .mon")).text();
-      const month = $(shoeSelector(".date > .day")).text();
-      const date = day + " " + month;
-      const json = JSON.parse(await fetchHtml(url + ".json"));
-      const srcImage = json.product.image.src;
-      let sizeVariantList = "";
-      let productTitle = json.product.title;
-      let productImage = json.product.image["src"];
-      let price = json.product.variants[0]["price"];
-
-      for (let i in json["product"]["variants"]) {
-        sizeVariantList += `${json["product"]["variants"][i]["title"]} | ${json["product"]["variants"][i]["inventory_quantity"]}\n`;
-        sizeVariantList = sizeVariantList.replace("-", "");
-      }
-
-      stock = "";
-      stockNum = [0];
-      for (let i in json["product"]["variants"]) {
-        stock = `${json["product"]["variants"][i]["inventory_quantity"]}`;
-
-        stockNum.push(stock);
-      }
-      num = 0;
-
-      for (var i = 0; i < stockNum.length; i++) {
-        num += +stockNum[i];
-      }
-      newStock = Math.abs(num);
-      shoesValues.push({ name, date, url, srcImage, newStock });
+      console.log(await userResult.json());
+    } catch (error) {
+      // NOTE: An unauthorized token will not throw an error;
+      // it will return a 401 Unauthorized response in the try block above
+      console.error(error);
     }
-
-    return shoesValues;
-  } else {
-    console.error(`The given link doesn't return any HTML`);
   }
-};
 
-(async () => {
-  const shoes = await getShoes();
-  for (shoe of shoes) showShoe(shoe);
-})();
+  return response.sendFile("index.html", { root: "." });
+});
+
+app.listen(port, () =>
+  console.log(`App listening at http://localhost:${port}`)
+);
