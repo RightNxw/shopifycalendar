@@ -3,15 +3,39 @@ const mongoose = require("mongoose");
 const shoeSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
+    required: false,
+  },
+  url: {
+    type: String,
+    required: false,
+  },
+  price: {
+    type: Number,
+    required: false,
   },
   date: {
     type: String,
-    required: true,
+    required: false,
   },
-  stock: {
+  image: {
     type: String,
     required: false,
+  },
+  stock: {
+    type: Number,
+    required: false,
+  },
+  sizeVars: {
+    type: Array,
+    required: false,
+  },
+  vars: {
+    type: Array,
+    required: false,
+  },
+  stockList: {
+    type: Array,
+    require: false,
   },
 });
 

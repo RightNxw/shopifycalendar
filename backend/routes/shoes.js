@@ -1,8 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const Shoe = require("../models/main");
+const path = require("path");
 
-router.get("/", async (req, res) => {
+router.use("/", express.static("../frontend/"));
+
+router.get("/shoesjson", async (req, res) => {
   try {
     const shoes = await Shoe.find();
     res.json(shoes);
@@ -14,8 +17,14 @@ router.get("/", async (req, res) => {
 router.post("/newmonthentries", async (req, res) => {
   const shoe = new Shoe({
     name: req.body.name,
+    url: req.body.url,
+    price: req.body.price,
     date: req.body.date,
+    image: req.body.image,
     stock: req.body.stock,
+    sizeVars: req.body.sizeVars,
+    vars: req.body.vars,
+    stockList: req.body.stockList,
   });
 
   try {
@@ -23,6 +32,19 @@ router.post("/newmonthentries", async (req, res) => {
     res.json(a1);
   } catch (err) {
     res.send("Error");
+  }
+});
+
+router.post("/clear", async (req, res) => {
+  try {
+    if (req.body.clear === true) {
+      Shoe.deleteMany({}, (err) => console.log(err));
+      console.log("removing"); // this
+      res.json({ cleared: true });
+    }
+  } catch (err) {
+    console.log(err);
+    res.json({ cleared: false });
   }
 });
 
