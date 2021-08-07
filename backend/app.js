@@ -24,7 +24,7 @@ app.use(express.json());
 const shoeRouter = require("./routes/shoes");
 app.use("/", shoeRouter);
 
-app.listen(9000, () => {
+app.listen(process.env.PORT || 9000, () => {
   console.log("Server started");
 });
 
