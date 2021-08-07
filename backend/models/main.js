@@ -37,6 +37,10 @@ const shoeSchema = new mongoose.Schema({
     type: Array,
     require: false,
   },
+  time: {
+    type: String,
+    require: false,
+  },
 });
 
 module.exports = mongoose.model("Shoe", shoeSchema);

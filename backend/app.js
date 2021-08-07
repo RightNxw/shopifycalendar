@@ -108,6 +108,7 @@ function update() {
             sizeVars: [sizeVariantList],
             vars: [variantList],
             stockList: [sizeVariantListStock],
+            time: new Date().toUTCString(),
           },
         });
       }
