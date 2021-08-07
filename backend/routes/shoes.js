@@ -25,6 +25,7 @@ router.post("/newmonthentries", async (req, res) => {
     sizeVars: req.body.sizeVars,
     vars: req.body.vars,
     stockList: req.body.stockList,
+    time: req.body.time,
   });
 
   try {
