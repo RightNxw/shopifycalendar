@@ -1,0 +1,16 @@
+{
+  "name": "shopify-calender",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.13"
+  }
+}
