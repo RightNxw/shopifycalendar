@@ -39,7 +39,7 @@ router.post("/clear", async (req, res) => {
   try {
     if (req.body.clear === true) {
       Shoe.deleteMany({}, (err) => console.log(err));
-      console.log("removing"); // this
+      console.log("removing" + new Date().toUTCString()); // this
       res.json({ cleared: true });
     }
   } catch (err) {

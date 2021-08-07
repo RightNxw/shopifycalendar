@@ -124,11 +124,11 @@ function update() {
         clear: true,
       },
     });
-    console.log("clearing");
+    console.log("clearing" + new Date().toUTCString());
     await sleep(30000);
-    console.log("Updating");
+    console.log("Updating" + new Date().toUTCString());
     await getShoes();
-    console.log("done");
+    console.log("done" + new Date().toUTCString());
   })();
 }
 setTimeout(update, 7200000);

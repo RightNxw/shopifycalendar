@@ -31,7 +31,13 @@ fetch("http://localhost:9000/shoesjson", {
         this.img = document.createElement("img");
         this.img.src = url;
         this.img.classList.add("image-shoe");
-        return this.img;
+        this.centerImg = new Div();
+        this.centerImg.classList.add("center-img");
+        this.centerImg.appendChild(this.img);
+        this.containerImg = new Div();
+        this.containerImg.classList.add("container-img");
+        this.containerImg.appendChild(this.centerImg);
+        return this.containerImg;
       }
     }
 
@@ -92,7 +98,7 @@ fetch("http://localhost:9000/shoesjson", {
           const btn = document.getElementById(this.id);
           if (tableToggle.classList.contains("table-hidden")) {
             tableToggle.className = "table-information";
-            btn.textContent = "Hide Variants";
+            btn.textContent = "Hide Sizes";
           } else {
             tableToggle.classList.add("table-hidden");
             btn.textContent = "Display Variants";
@@ -148,7 +154,7 @@ fetch("http://localhost:9000/shoesjson", {
 
     jsonShoes.forEach((shoe, idx) => {
       const tableInformation = [
-        ["Price", "Date", "Stock"],
+        ["Total Price", "Release Date", " Total Stock"],
         [shoe.price, shoe.date, shoe.stock],
       ];
 
@@ -169,5 +175,10 @@ fetch("http://localhost:9000/shoesjson", {
 
     const root = document.getElementById("root");
 
-    for (const card of cards) root.appendChild(card);
+    const containerCards = new Div();
+    containerCards.classList.add("container-cards");
+
+    for (const card of cards) containerCards.appendChild(card);
+
+    root.appendChild(containerCards);
   });
