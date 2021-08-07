@@ -28,17 +28,10 @@ body {
   position: relative;
 }
 
-footer {
-  text-align: center;
-  background: black;
-  padding: 2rem;
-}
-
 h1 {
   font-size: 34px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
   padding-top: 60px;
 }
 
@@ -46,7 +39,13 @@ h2 {
   font-size: 26px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 60px;
+}
+
+a {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
 }
 
 * {
