@@ -119,7 +119,7 @@ function update() {
   };
 
   (async () => {
-    got.post("http://localhost:9000/clear", {
+    got.post("https://andromeda-tools.herokuapp.com/clear", {
       json: {
         clear: true,
       },

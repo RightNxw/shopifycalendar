@@ -1,5 +1,5 @@
 let jsonShoes;
-fetch("http://localhost:9000/shoesjson", {
+fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",
