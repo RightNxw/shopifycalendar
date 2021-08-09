@@ -132,4 +132,4 @@ function update() {
     console.log("done" + new Date().toUTCString());
   })();
 }
-setTimeout(update, 7200000);
+setInterval(update, 7200000);
