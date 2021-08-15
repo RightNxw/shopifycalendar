@@ -1,311 +1,329 @@
-const _0x4a9b = [
-  "btn",
-  "addTable",
-  "application/json",
-  "Total\x20Price",
-  "src",
-  "container-cards",
-  "textContent",
-  "44829ENEcja",
-  "containerImg",
-  "tbody",
-  "table-sizes-",
-  "name",
-  "centerImg",
-  "build",
-  "center-img",
-  "46843RdeAkB",
-  "contains",
-  "getElementById",
-  "1631072OcHyES",
-  "table",
-  "root",
-  "length",
-  "58qxFxjr",
-  "963321pIXxWi",
-  "name-shoe",
-  "img",
-  "classList",
-  "setImage",
-  "json",
-  "date",
-  "table-hidden",
-  "card",
-  "addEventListener",
-  "title",
-  "push",
-  "table-information",
-  "createElement",
-  "2mqCbmf",
-  "Variant\x20With\x20Stock",
-  "add",
-  "className",
-  "https://andromeda-tools.herokuapp.com/shoesjson",
-  "1051853NJwzye",
-  "image-shoe",
-  "68633gEAOxl",
-  "div",
-  "image",
-  "button",
-  "appendChild",
-  "click",
-  "table-body-information",
-  "vars",
-  "Display\x20Variants",
-  "Release\x20Date",
-  "getHandleClick",
-  "setButton",
-  "5019fUCcwe",
-  "card-",
-  "then",
-  "initCard",
-  "GET",
-  "1DNKgCf",
-  "price",
-];
-function _0x2782(_0x386aa9, _0x6513b) {
+function _0x3320(_0x3894c1, _0x460715) {
+  const _0x1d665f = _0x1d66();
   return (
-    (_0x2782 = function (_0x4a9b90, _0x2782ef) {
-      _0x4a9b90 = _0x4a9b90 - 0xb2;
-      let _0x4c6b95 = _0x4a9b[_0x4a9b90];
-      return _0x4c6b95;
+    (_0x3320 = function (_0x332095, _0x2b9e25) {
+      _0x332095 = _0x332095 - 0xd7;
+      let _0x37d7bb = _0x1d665f[_0x332095];
+      return _0x37d7bb;
     }),
-    _0x2782(_0x386aa9, _0x6513b)
+    _0x3320(_0x3894c1, _0x460715)
   );
 }
-const _0x248536 = _0x2782;
-(function (_0x5a47e9, _0x3eae0f) {
-  const _0xf4fed5 = _0x2782;
+function _0x1d66() {
+  const _0x10e3d6 = [
+    "stockList",
+    "card-",
+    "setImage",
+    "className",
+    "tbody",
+    "contains",
+    "Release\x20Date",
+    "split",
+    "click",
+    "root",
+    "https://andromeda-tools.herokuapp.com/shoesjson",
+    "2724456eeuoFg",
+    "setButton",
+    "initCard",
+    "button-",
+    "forEach",
+    "textContent",
+    "getElementById",
+    "Variants",
+    "push",
+    "then",
+    "Mass\x20Variants\x20Link",
+    "table-information",
+    "centerImg",
+    "length",
+    "classList",
+    "button",
+    "div",
+    "15399626hbDmlp",
+    "appendChild",
+    "name",
+    "addTable",
+    "5003919zCzsit",
+    "build",
+    "createElement",
+    "image-shoe",
+    "10kCPgRJ",
+    "container-img",
+    "Hide\x20Sizes",
+    "Total\x20Stock",
+    "containerImg",
+    "866892kprJVt",
+    "img",
+    "add",
+    "21DkYZDm",
+    "title",
+    "table-sizes",
+    "11667wHCijC",
+    "table-hidden",
+    "sizeVars",
+    "addEventListener",
+    "stock",
+    "138160bwfyZW",
+    "card",
+    "358WqHhHj",
+    "json",
+    "10mzJMIO",
+    "setTitle",
+    "1370904XVksfS",
+    "table",
+    "GET",
+    "Variants\x20With\x20Stock",
+    "Stock",
+    "image",
+    "price",
+    "btn",
+    "container-cards",
+    "Display\x20Variants",
+  ];
+  _0x1d66 = function () {
+    return _0x10e3d6;
+  };
+  return _0x1d66();
+}
+const _0x1f3ca0 = _0x3320;
+(function (_0x4fb8cd, _0x1668e4) {
+  const _0x585bf4 = _0x3320,
+    _0x373098 = _0x4fb8cd();
   while (!![]) {
     try {
-      const _0x24f5f1 =
-        -parseInt(_0xf4fed5(0xb6)) +
-        parseInt(_0xf4fed5(0xce)) +
-        -parseInt(_0xf4fed5(0xe1)) * -parseInt(_0xf4fed5(0xb3)) +
-        parseInt(_0xf4fed5(0xba)) * parseInt(_0xf4fed5(0xdc)) +
-        parseInt(_0xf4fed5(0xbb)) +
-        parseInt(_0xf4fed5(0xea)) +
-        parseInt(_0xf4fed5(0xd0)) * parseInt(_0xf4fed5(0xc9));
-      if (_0x24f5f1 === _0x3eae0f) break;
-      else _0x5a47e9["push"](_0x5a47e9["shift"]());
-    } catch (_0x5d0e1c) {
-      _0x5a47e9["push"](_0x5a47e9["shift"]());
+      const _0x5ebb49 =
+        parseInt(_0x585bf4(0x111)) / 0x1 +
+        (-parseInt(_0x585bf4(0x113)) / 0x2) *
+          (-parseInt(_0x585bf4(0x10c)) / 0x3) +
+        (-parseInt(_0x585bf4(0x106)) / 0x4) *
+          (-parseInt(_0x585bf4(0x101)) / 0x5) +
+        parseInt(_0x585bf4(0xe8)) / 0x6 +
+        (-parseInt(_0x585bf4(0x109)) / 0x7) *
+          (parseInt(_0x585bf4(0x117)) / 0x8) +
+        (parseInt(_0x585bf4(0xfd)) / 0x9) * (parseInt(_0x585bf4(0x115)) / 0xa) +
+        -parseInt(_0x585bf4(0xf9)) / 0xb;
+      if (_0x5ebb49 === _0x1668e4) break;
+      else _0x373098["push"](_0x373098["shift"]());
+    } catch (_0x335360) {
+      _0x373098["push"](_0x373098["shift"]());
     }
   }
-})(_0x4a9b, 0xdcbce);
+})(_0x1d66, 0x58ce5);
 let jsonShoes;
-fetch(_0x248536(0xcd), {
-  headers: { Accept: _0x248536(0xe5), "Content-Type": _0x248536(0xe5) },
-  method: _0x248536(0xe0),
+fetch(_0x1f3ca0(0xe7), {
+  headers: { Accept: "application/json", "Content-Type": "application/json" },
+  method: _0x1f3ca0(0x119),
 })
-  ["then"]((_0x5599ce) => _0x5599ce[_0x248536(0xc0)]())
-  ["then"]((_0xc5021b) => {
-    jsonShoes = _0xc5021b;
+  [_0x1f3ca0(0xf1)]((_0x13c642) => _0x13c642[_0x1f3ca0(0x114)]())
+  [_0x1f3ca0(0xf1)]((_0x16147b) => {
+    jsonShoes = _0x16147b;
   })
-  [_0x248536(0xde)](() => {
-    const _0x22039b = _0x248536;
-    class _0x1b1d6e {
-      constructor(_0x38d4af) {
-        const _0x12a876 = _0x2782;
+  ["then"](() => {
+    const _0x39866c = _0x1f3ca0;
+    class _0x3c9b15 {
+      constructor(_0x36f4c5) {
+        const _0xfc94d = _0x3320;
         return (
-          (this["p"] = document[_0x12a876(0xc8)]("p")),
-          (this["p"][_0x12a876(0xe9)] = _0x38d4af),
+          (this["p"] = document[_0xfc94d(0xff)]("p")),
+          (this["p"][_0xfc94d(0xed)] = _0x36f4c5),
           this["p"]
         );
       }
     }
-    class _0x1fc227 {
+    class _0x122c43 {
       constructor() {
-        const _0x273fb5 = _0x2782;
+        const _0x402f7b = _0x3320;
         return (
-          (this[_0x273fb5(0xd1)] = document[_0x273fb5(0xc8)](_0x273fb5(0xd1))),
-          this[_0x273fb5(0xd1)]
+          (this[_0x402f7b(0xf8)] = document[_0x402f7b(0xff)](_0x402f7b(0xf8))),
+          this[_0x402f7b(0xf8)]
         );
       }
     }
-    class _0x5f5743 {
-      constructor(_0x149f03) {
-        const _0x2b52eb = _0x2782;
+    class _0x451a5f {
+      constructor(_0x1eeda0) {
+        const _0x9358fd = _0x3320;
         return (
-          (this[_0x2b52eb(0xbd)] = document["createElement"](_0x2b52eb(0xbd))),
-          (this[_0x2b52eb(0xbd)][_0x2b52eb(0xe7)] = _0x149f03),
-          this[_0x2b52eb(0xbd)][_0x2b52eb(0xbe)][_0x2b52eb(0xcb)](
-            _0x2b52eb(0xcf)
+          (this["img"] = document["createElement"](_0x9358fd(0x107))),
+          (this[_0x9358fd(0x107)]["src"] = _0x1eeda0),
+          this[_0x9358fd(0x107)][_0x9358fd(0xf6)][_0x9358fd(0x108)](
+            _0x9358fd(0x100)
           ),
-          (this["centerImg"] = new _0x1fc227()),
-          this[_0x2b52eb(0xef)]["classList"][_0x2b52eb(0xcb)](_0x2b52eb(0xb2)),
-          this[_0x2b52eb(0xef)][_0x2b52eb(0xd4)](this[_0x2b52eb(0xbd)]),
-          (this[_0x2b52eb(0xeb)] = new _0x1fc227()),
-          this[_0x2b52eb(0xeb)][_0x2b52eb(0xbe)][_0x2b52eb(0xcb)](
-            "container-img"
-          ),
-          this[_0x2b52eb(0xeb)][_0x2b52eb(0xd4)](this["centerImg"]),
-          this["containerImg"]
+          (this[_0x9358fd(0xf4)] = new _0x122c43()),
+          this["centerImg"]["classList"][_0x9358fd(0x108)]("center-img"),
+          this[_0x9358fd(0xf4)][_0x9358fd(0xfa)](this[_0x9358fd(0x107)]),
+          (this[_0x9358fd(0x105)] = new _0x122c43()),
+          this[_0x9358fd(0x105)][_0x9358fd(0xf6)]["add"](_0x9358fd(0x102)),
+          this[_0x9358fd(0x105)]["appendChild"](this[_0x9358fd(0xf4)]),
+          this[_0x9358fd(0x105)]
         );
       }
     }
-    class _0x24cda3 {
-      constructor(_0xc5fed4) {
-        const _0x551c64 = _0x2782;
+    class _0x1e85ed {
+      constructor(_0x38cc6e) {
+        const _0x13c8d0 = _0x3320;
         return (
-          (this["td"] = document[_0x551c64(0xc8)]("td")),
-          (this["td"][_0x551c64(0xe9)] = _0xc5fed4),
+          (this["td"] = document["createElement"]("td")),
+          (this["td"][_0x13c8d0(0xed)] = _0x38cc6e),
           this["td"]
         );
       }
     }
-    class _0x472b61 {
-      constructor(_0x446405) {
-        const _0x39ac41 = _0x2782;
-        (this[_0x39ac41(0xec)] = document["createElement"]("tbody")),
-          this[_0x39ac41(0xec)][_0x39ac41(0xbe)][_0x39ac41(0xcb)](
-            _0x39ac41(0xd6)
+    class _0x2950a4 {
+      constructor(_0x11f0c1) {
+        const _0x339810 = _0x3320;
+        (this[_0x339810(0xe1)] = document[_0x339810(0xff)](_0x339810(0xe1))),
+          this[_0x339810(0xe1)][_0x339810(0xf6)][_0x339810(0x108)](
+            "table-body-information"
           );
-        for (const _0x179c78 of _0x446405)
-          this[_0x39ac41(0xec)]["appendChild"](_0x179c78);
-        return this[_0x39ac41(0xec)];
+        for (const _0x153402 of _0x11f0c1)
+          this[_0x339810(0xe1)][_0x339810(0xfa)](_0x153402);
+        return this["tbody"];
       }
     }
-    class _0x20e1aa {
-      constructor(_0x1617f5) {
-        const _0xe05d = _0x2782;
-        this["tr"] = document[_0xe05d(0xc8)]("tr");
-        for (const _0x550d0d of _0x1617f5)
-          this["tr"][_0xe05d(0xd4)](new _0x24cda3(_0x550d0d));
+    class _0x2d481b {
+      constructor(_0x1a92b1) {
+        const _0x3dc7b0 = _0x3320;
+        this["tr"] = document[_0x3dc7b0(0xff)]("tr");
+        for (const _0x451e90 of _0x1a92b1)
+          this["tr"][_0x3dc7b0(0xfa)](new _0x1e85ed(_0x451e90));
         return this["tr"];
       }
     }
-    class _0x835031 {
-      constructor(_0xb405cd, _0x2600a1, _0x47245a) {
-        const _0x8f8dcc = _0x2782;
-        (this[_0x8f8dcc(0xb7)] = document[_0x8f8dcc(0xc8)]("table")),
-          this[_0x8f8dcc(0xb7)][_0x8f8dcc(0xbe)][_0x8f8dcc(0xcb)](
-            _0x8f8dcc(0xc7)
-          ),
-          (this[_0x8f8dcc(0xb7)]["id"] = _0xb405cd);
-        const _0x6a547f = [];
-        for (const _0x4ffa4d of _0x2600a1)
-          _0x6a547f[_0x8f8dcc(0xc6)](new _0x20e1aa(_0x4ffa4d));
-        this["table"][_0x8f8dcc(0xd4)](new _0x472b61(_0x6a547f));
-        if (!_0x47245a)
-          this["table"]["classList"][_0x8f8dcc(0xcb)](_0x8f8dcc(0xc2));
-        return this[_0x8f8dcc(0xb7)];
+    class _0x3685fd {
+      constructor(_0x277451, _0x3022b2, _0x290c0b) {
+        const _0x355152 = _0x3320;
+        (this[_0x355152(0x118)] = document[_0x355152(0xff)](_0x355152(0x118))),
+          this["table"]["classList"][_0x355152(0x108)](_0x355152(0xf3)),
+          (this["table"]["id"] = _0x277451);
+        const _0x5d060e = [];
+        for (const _0x4c1e88 of _0x3022b2)
+          _0x5d060e[_0x355152(0xf0)](new _0x2d481b(_0x4c1e88));
+        this[_0x355152(0x118)]["appendChild"](new _0x2950a4(_0x5d060e));
+        if (!_0x290c0b)
+          this[_0x355152(0x118)][_0x355152(0xf6)][_0x355152(0x108)](
+            _0x355152(0x10d)
+          );
+        return this[_0x355152(0x118)];
       }
     }
-    class _0x2f6bfd {
-      constructor(_0x4e4d18, _0x3d1004) {
-        const _0x5c79ea = _0x2782;
+    class _0x4276df {
+      constructor(_0x131e04, _0xb0a093) {
+        const _0x578dde = _0x3320;
         return (
-          (this["id"] = "button-" + _0x4e4d18),
-          (this[_0x5c79ea(0xd3)] = document[_0x5c79ea(0xc8)](_0x5c79ea(0xd3))),
-          this[_0x5c79ea(0xd3)]["classList"]["add"](_0x5c79ea(0xe3)),
-          (this[_0x5c79ea(0xd3)]["textContent"] = _0x3d1004),
-          this[_0x5c79ea(0xd3)][_0x5c79ea(0xc4)](
-            _0x5c79ea(0xd5),
-            this["getHandleClick"](_0x4e4d18)
+          (this["id"] = _0x578dde(0xeb) + _0x131e04),
+          (this[_0x578dde(0xf7)] = document[_0x578dde(0xff)](_0x578dde(0xf7))),
+          this[_0x578dde(0xf7)][_0x578dde(0xf6)][_0x578dde(0x108)](
+            _0x578dde(0xda)
           ),
-          (this[_0x5c79ea(0xd3)]["id"] = this["id"]),
-          this[_0x5c79ea(0xd3)]
+          (this[_0x578dde(0xf7)][_0x578dde(0xed)] = _0xb0a093),
+          this["button"][_0x578dde(0x10f)](
+            _0x578dde(0xe5),
+            this["getHandleClick"](_0x131e04)
+          ),
+          (this["button"]["id"] = this["id"]),
+          this[_0x578dde(0xf7)]
         );
       }
-      [_0x22039b(0xda)](_0xcbe576) {
-        const _0xaa656e = () => {
-          const _0x30cbda = _0x2782,
-            _0x4b99c0 = document[_0x30cbda(0xb5)](_0x30cbda(0xed) + _0xcbe576),
-            _0x3003f8 = document[_0x30cbda(0xb5)](this["id"]);
-          _0x4b99c0["classList"][_0x30cbda(0xb4)](_0x30cbda(0xc2))
-            ? ((_0x4b99c0[_0x30cbda(0xcc)] = "table-information"),
-              (_0x3003f8[_0x30cbda(0xe9)] = "Hide\x20Variants"))
-            : (_0x4b99c0[_0x30cbda(0xbe)][_0x30cbda(0xcb)]("table-hidden"),
-              (_0x3003f8[_0x30cbda(0xe9)] = _0x30cbda(0xd8)));
+      ["getHandleClick"](_0x5050e3) {
+        const _0x16377a = () => {
+          const _0x575dbc = _0x3320,
+            _0x3abd43 = document[_0x575dbc(0xee)]("table-sizes-" + _0x5050e3),
+            _0x3bc21c = document["getElementById"](this["id"]);
+          _0x3abd43[_0x575dbc(0xf6)][_0x575dbc(0xe2)]("table-hidden")
+            ? ((_0x3abd43[_0x575dbc(0xe0)] = "table-information"),
+              (_0x3bc21c[_0x575dbc(0xed)] = _0x575dbc(0x103)))
+            : (_0x3abd43[_0x575dbc(0xf6)]["add"]("table-hidden"),
+              (_0x3bc21c[_0x575dbc(0xed)] = _0x575dbc(0xdc)));
         };
-        return _0xaa656e;
+        return _0x16377a;
       }
     }
-    class _0x1b2a69 {
-      constructor(_0x155e67, _0x261959, _0x232578) {
-        const _0x27b334 = _0x22039b;
-        (this["id"] = _0x27b334(0xdd) + _0x155e67),
-          this[_0x27b334(0xdf)](),
-          this["setTitle"](_0x261959),
-          this[_0x27b334(0xbf)](_0x232578),
-          this[_0x27b334(0xdb)](_0x155e67);
+    class _0x66fb69 {
+      constructor(_0x2b2da0, _0x3a1391, _0x503824) {
+        const _0x5e32b5 = _0x3320;
+        (this["id"] = _0x5e32b5(0xde) + _0x2b2da0),
+          this[_0x5e32b5(0xea)](),
+          this[_0x5e32b5(0x116)](_0x3a1391),
+          this[_0x5e32b5(0xdf)](_0x503824),
+          this[_0x5e32b5(0xe9)](_0x2b2da0);
       }
-      [_0x22039b(0xf0)]() {
-        const _0x142929 = _0x22039b;
-        return this[_0x142929(0xc3)];
+      [_0x39866c(0xfe)]() {
+        return this["card"];
       }
-      [_0x22039b(0xdf)]() {
-        const _0x35b39d = _0x22039b;
-        (this[_0x35b39d(0xc3)] = new _0x1fc227()),
-          this[_0x35b39d(0xc3)]["classList"][_0x35b39d(0xcb)](_0x35b39d(0xc3)),
-          (this["card"]["id"] = this["id"]);
-      }
-      ["setTitle"](_0x2889df) {
-        const _0x356480 = _0x22039b;
-        (this[_0x356480(0xc5)] = new _0x1b1d6e(_0x2889df)),
-          this[_0x356480(0xc5)][_0x356480(0xbe)][_0x356480(0xcb)](
-            _0x356480(0xbc)
+      [_0x39866c(0xea)]() {
+        const _0x2ef909 = _0x39866c;
+        (this["card"] = new _0x122c43()),
+          this[_0x2ef909(0x112)][_0x2ef909(0xf6)][_0x2ef909(0x108)](
+            _0x2ef909(0x112)
           ),
-          this[_0x356480(0xc3)][_0x356480(0xd4)](this[_0x356480(0xc5)]);
+          (this[_0x2ef909(0x112)]["id"] = this["id"]);
       }
-      [_0x22039b(0xbf)](_0x406908) {
-        const _0x23e8a4 = _0x22039b;
-        (this["image"] = new _0x5f5743(_0x406908)),
-          this[_0x23e8a4(0xc3)][_0x23e8a4(0xd4)](this[_0x23e8a4(0xd2)]);
+      [_0x39866c(0x116)](_0x32435e) {
+        const _0x504b6b = _0x39866c;
+        (this[_0x504b6b(0x10a)] = new _0x3c9b15(_0x32435e)),
+          this["title"][_0x504b6b(0xf6)]["add"]("name-shoe"),
+          this[_0x504b6b(0x112)][_0x504b6b(0xfa)](this["title"]);
       }
-      ["addTable"](_0x273d7d, _0x194e78, _0x10b333 = !![]) {
-        const _0x4bbb2c = _0x22039b;
-        (this[_0x4bbb2c(0xb7)] = new _0x835031(
-          _0x273d7d + "-" + this["id"],
-          _0x194e78,
-          _0x10b333
+      ["setImage"](_0x1a59a8) {
+        const _0xf96c26 = _0x39866c;
+        (this[_0xf96c26(0xd8)] = new _0x451a5f(_0x1a59a8)),
+          this[_0xf96c26(0x112)][_0xf96c26(0xfa)](this["image"]);
+      }
+      [_0x39866c(0xfc)](_0x549dad, _0x36a17d, _0x3881fc = !![]) {
+        const _0x12b7ce = _0x39866c;
+        (this["table"] = new _0x3685fd(
+          _0x549dad + "-" + this["id"],
+          _0x36a17d,
+          _0x3881fc
         )),
-          this["card"][_0x4bbb2c(0xd4)](this[_0x4bbb2c(0xb7)]);
+          this[_0x12b7ce(0x112)]["appendChild"](this[_0x12b7ce(0x118)]);
       }
-      [_0x22039b(0xdb)]() {
-        const _0x181fa8 = _0x22039b;
-        (this["button"] = new _0x2f6bfd(this["id"], _0x181fa8(0xd8))),
-          this["card"]["appendChild"](this[_0x181fa8(0xd3)]);
+      ["setButton"]() {
+        const _0xeac5b4 = _0x39866c;
+        (this[_0xeac5b4(0xf7)] = new _0x4276df(this["id"], _0xeac5b4(0xdc))),
+          this[_0xeac5b4(0x112)][_0xeac5b4(0xfa)](this[_0xeac5b4(0xf7)]);
       }
     }
-    const _0x1983ef = [];
-    jsonShoes["forEach"]((_0x3ca73a, _0x153aa5) => {
-      const _0x1ea5a0 = _0x22039b,
-        _0x22c9ff = [
-          [_0x1ea5a0(0xe6), _0x1ea5a0(0xd9), "\x20Total\x20Stock"],
+    const _0x4ca70d = [];
+    jsonShoes[_0x39866c(0xec)]((_0x3a6044, _0x3f2ed1) => {
+      const _0x103efb = _0x39866c,
+        _0x400a4f = [
+          ["Total\x20Price", _0x103efb(0xe3), _0x103efb(0x104)],
           [
-            _0x3ca73a[_0x1ea5a0(0xe2)],
-            _0x3ca73a[_0x1ea5a0(0xc1)],
-            _0x3ca73a["stock"],
+            _0x3a6044[_0x103efb(0xd9)],
+            _0x3a6044["date"],
+            _0x3a6044[_0x103efb(0x110)],
           ],
         ],
-        _0xe18713 = [["Variants", _0x1ea5a0(0xca), "Stock"]],
-        _0x191498 = _0x3ca73a[_0x1ea5a0(0xd7)][0x0]["split"]("\x0a"),
-        _0x29d60f = _0x3ca73a["sizeVars"][0x0]["split"]("\x0a"),
-        _0x1d32fe = _0x3ca73a["stockList"][0x0]["split"]("\x0a");
+        _0x4b8cac = [
+          [_0x103efb(0xef), _0x103efb(0x11a), _0x103efb(0xd7), _0x103efb(0xf2)],
+        ],
+        _0x163a85 = _0x3a6044["vars"][0x0][_0x103efb(0xe4)]("\x0a"),
+        _0x38c0b8 = _0x3a6044[_0x103efb(0x10e)][0x0][_0x103efb(0xe4)]("\x0a"),
+        _0x19c3e8 = _0x3a6044[_0x103efb(0xdd)][0x0][_0x103efb(0xe4)]("\x0a");
       for (
-        let _0x26323c = 0x0;
-        _0x26323c < _0x191498[_0x1ea5a0(0xb9)] - 0x1;
-        _0x26323c++
+        let _0x540685 = 0x0;
+        _0x540685 < _0x163a85[_0x103efb(0xf5)] - 0x1;
+        _0x540685++
       )
-        _0xe18713[_0x1ea5a0(0xc6)]([
-          _0x191498[_0x26323c],
-          _0x29d60f[_0x26323c],
-          _0x1d32fe[_0x26323c],
+        _0x4b8cac["push"]([
+          _0x163a85[_0x540685],
+          _0x38c0b8[_0x540685],
+          _0x19c3e8[_0x540685],
+          MassVariants[_0x540685],
         ]);
-      const _0x57f361 = new _0x1b2a69(
-        _0x153aa5,
-        _0x3ca73a[_0x1ea5a0(0xee)],
-        _0x3ca73a[_0x1ea5a0(0xd2)]
+      const _0x2ae00a = new _0x66fb69(
+        _0x3f2ed1,
+        _0x3a6044[_0x103efb(0xfb)],
+        _0x3a6044[_0x103efb(0xd8)]
       );
-      _0x57f361[_0x1ea5a0(0xe4)](_0x1ea5a0(0xc7), _0x22c9ff),
-        _0x57f361[_0x1ea5a0(0xe4)]("table-sizes", _0xe18713, ![]),
-        _0x1983ef[_0x1ea5a0(0xc6)](_0x57f361[_0x1ea5a0(0xf0)]());
+      _0x2ae00a[_0x103efb(0xfc)]("table-information", _0x400a4f),
+        _0x2ae00a[_0x103efb(0xfc)](_0x103efb(0x10b), _0x4b8cac, ![]),
+        _0x4ca70d[_0x103efb(0xf0)](_0x2ae00a[_0x103efb(0xfe)]());
     });
-    const _0x3f345f = document[_0x22039b(0xb5)](_0x22039b(0xb8)),
-      _0x208578 = new _0x1fc227();
-    _0x208578[_0x22039b(0xbe)]["add"](_0x22039b(0xe8));
-    for (const _0x4d4fc8 of _0x1983ef) _0x208578[_0x22039b(0xd4)](_0x4d4fc8);
-    _0x3f345f["appendChild"](_0x208578);
+    const _0x57e4c0 = document["getElementById"](_0x39866c(0xe6)),
+      _0x22d871 = new _0x122c43();
+    _0x22d871["classList"][_0x39866c(0x108)](_0x39866c(0xdb));
+    for (const _0x3bd207 of _0x4ca70d) _0x22d871[_0x39866c(0xfa)](_0x3bd207);
+    _0x57e4c0["appendChild"](_0x22d871);
   });
