@@ -181,7 +181,7 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
       card.addTable("table-sizes", tableSizes, false);
-      card.appendChild(link);
+      card.addTable("link", link);
       cards.push(card.build());
     });
 
