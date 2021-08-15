@@ -155,12 +155,7 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
     jsonShoes.forEach((shoe, idx) => {
       const tableInformation = [
         ["Total Price", "Release Date", "Total Stock", "Mass Variants Link"],
-        [
-          shoe.price,
-          shoe.date,
-          shoe.stock,
-          (document.getElementById("myAnchor").href = "http://www.cnn.com/"),
-        ],
+        [shoe.price, shoe.date, shoe.stock, shoe.MassVariants],
       ];
 
       const tableSizes = [["Variants", "Variants With Stock", "Stock"]];
