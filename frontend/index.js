@@ -166,10 +166,10 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const sizeVars = shoe.sizeVars[0].split("\n");
       const stock = shoe.stockList[0].split("\n");
       const MassVariants = shoe.MassVariants[0];
-      console.log(shoe.MassVariants[0]);
+
       console.log(shoe.MassVariants);
       for (let i = 0; i < vars.length - 1; i++)
-        tableSizes.push([vars[i], sizeVars[i], stock[i], MassVariants[i]]);
+        tableSizes.push([vars[i], sizeVars[i], stock[i], MassVariants]);
 
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
