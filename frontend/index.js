@@ -153,31 +153,28 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
     const cards = [];
 
     jsonShoes.forEach((shoe, idx) => {
-      const tableInformation = [
-        ["Total Price", "Release Date", "Total Stock"],
-        [shoe.price, shoe.date, shoe.stock],
-      ];
-
-      const tableSizes = [
-        ["Variants", "Variants With Stock", "Stock", "Mass Variants Link"],
-      ];
-
-      const vars = shoe.vars[0].split("\n");
-      const sizeVars = shoe.sizeVars[0].split("\n");
-      const stock = shoe.stockList[0].split("\n");
-      const MassVariants = shoe.MassVariants;
-
       var link = document.createElement("a");
-      link.setAttribute("href", shoe.MassVariants);
+      link.setAttribute("href", "http://www.microsoft.com");
       link.className = "someCSSclass";
       // For IE only, you can simply set the innerText of the node.
       // The below code, however, should work on all browsers.
       var linkText = document.createTextNode("Click me");
       link.appendChild(linkText);
 
+      const tableInformation = [
+        ["Total Price", "Release Date", "Total Stock", "Mass Variants Link"],
+        [shoe.price, shoe.date, shoe.stock, link],
+      ];
+
+      const tableSizes = [["Variants", "Variants With Stock", "Stock"]];
+
+      const vars = shoe.vars[0].split("\n");
+      const sizeVars = shoe.sizeVars[0].split("\n");
+      const stock = shoe.stockList[0].split("\n");
+      const MassVariants = shoe.MassVariants;
+
       for (let i = 0; i < vars.length - 1; i++)
         tableSizes.push([vars[i], sizeVars[i], stock[i]]);
-      tableSizes.push(MassVariants);
 
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
