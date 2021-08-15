@@ -176,11 +176,12 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       link.appendChild(linkText);
 
       for (let i = 0; i < vars.length - 1; i++)
-        tableSizes.push([vars[i], sizeVars[i], stock[i], link]);
+        tableSizes.push([vars[i], sizeVars[i], stock[i]]);
 
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
       card.addTable("table-sizes", tableSizes, false);
+      card.appendChild(link);
       cards.push(card.build());
     });
 
