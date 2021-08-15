@@ -158,11 +158,10 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       a.appendChild(linkText);
       a.title = "my title text";
       a.href = "http://example.com";
-      let link = document.body.appendChild(a);
 
       const tableInformation = [
         ["Total Price", "Release Date", "Total Stock", "Mass Variants Link"],
-        [shoe.price, shoe.date, shoe.stock, link],
+        [shoe.price, shoe.date, shoe.stock, (a.href = "http://example.com")],
       ];
 
       const tableSizes = [["Variants", "Variants With Stock", "Stock"]];
