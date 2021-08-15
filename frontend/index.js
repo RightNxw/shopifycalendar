@@ -166,10 +166,17 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const sizeVars = shoe.sizeVars[0].split("\n");
       const stock = shoe.stockList[0].split("\n");
       const MassVariants = shoe.MassVariants;
-      var linkText = document.createTextNode(shoe.MassVariants);
+
+      var link = document.createElement("a");
+      link.setAttribute("href", shoe.MassVariants);
+      link.className = "someCSSclass";
+      // For IE only, you can simply set the innerText of the node.
+      // The below code, however, should work on all browsers.
+      var linkText = document.createTextNode("Click me");
+      link.appendChild(linkText);
 
       for (let i = 0; i < vars.length - 1; i++)
-        tableSizes.push([vars[i], sizeVars[i], stock[i], linkText]);
+        tableSizes.push([vars[i], sizeVars[i], stock[i], link]);
 
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
