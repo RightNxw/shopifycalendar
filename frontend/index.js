@@ -166,8 +166,7 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const sizeVars = shoe.sizeVars[0].split("\n");
       const stock = shoe.stockList[0].split("\n");
       const MassVariants = shoe.MassVariants;
-
-      var linkText = document.createTextNode(shoe.MassVariants[0].split("\n"));
+      var linkText = document.createTextNode(shoe.MassVariants);
 
       for (let i = 0; i < vars.length - 1; i++)
         tableSizes.push([vars[i], sizeVars[i], stock[i], linkText]);
