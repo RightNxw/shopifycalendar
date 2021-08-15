@@ -165,7 +165,7 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const vars = shoe.vars[0].split("\n");
       const sizeVars = shoe.sizeVars[0].split("\n");
       const stock = shoe.stockList[0].split("\n");
-      const MassVariants = shoe.MassVariants[0];
+      const MassVariants = shoe.MassVariants;
 
       console.log(shoe.MassVariants);
       for (let i = 0; i < vars.length - 1; i++)
