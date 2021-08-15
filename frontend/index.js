@@ -177,7 +177,7 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
 
       for (let i = 0; i < vars.length - 1; i++)
         tableSizes.push([vars[i], sizeVars[i], stock[i]]);
-      tableSizes.push(link);
+      tableSizes.push(MassVariants);
 
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
