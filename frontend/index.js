@@ -98,7 +98,7 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
           const btn = document.getElementById(this.id);
           if (tableToggle.classList.contains("table-hidden")) {
             tableToggle.className = "table-information";
-            btn.textContent = "Hide Sizes";
+            btn.textContent = "Hide Variants";
           } else {
             tableToggle.classList.add("table-hidden");
             btn.textContent = "Display Variants";
@@ -167,9 +167,10 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const stock = shoe.stockList[0].split("\n");
       const MassVariants = shoe.MassVariants;
 
-      console.log(shoe.MassVariants);
+      var linkText = document.createTextNode(shoe.MassVariants[0].split("\n"));
+
       for (let i = 0; i < vars.length - 1; i++)
-        tableSizes.push([vars[i], sizeVars[i], stock[i], MassVariants]);
+        tableSizes.push([vars[i], sizeVars[i], stock[i], linkText]);
 
       const card = new Card(idx, shoe.name, shoe.image);
       card.addTable("table-information", tableInformation);
