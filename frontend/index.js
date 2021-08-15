@@ -153,15 +153,14 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
     const cards = [];
 
     jsonShoes.forEach((shoe, idx) => {
-      var a = document.createElement("a");
-      var linkText = document.createTextNode("my title text");
-      a.appendChild(linkText);
-      a.title = "my title text";
-      a.href = "http://example.com";
-
       const tableInformation = [
         ["Total Price", "Release Date", "Total Stock", "Mass Variants Link"],
-        [shoe.price, shoe.date, shoe.stock, (a.href = "http://example.com")],
+        [
+          shoe.price,
+          shoe.date,
+          shoe.stock,
+          (document.getElementById("myAnchor").href = "http://www.cnn.com/"),
+        ],
       ];
 
       const tableSizes = [["Variants", "Variants With Stock", "Stock"]];
@@ -169,7 +168,6 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
       const vars = shoe.vars[0].split("\n");
       const sizeVars = shoe.sizeVars[0].split("\n");
       const stock = shoe.stockList[0].split("\n");
-      const MassVariants = shoe.MassVariants;
 
       for (let i = 0; i < vars.length - 1; i++)
         tableSizes.push([vars[i], sizeVars[i], stock[i]]);
