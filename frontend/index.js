@@ -153,13 +153,12 @@ fetch("https://andromeda-tools.herokuapp.com/shoesjson", {
     const cards = [];
 
     jsonShoes.forEach((shoe, idx) => {
-      var link = document.createElement("a");
-      link.setAttribute("href", "http://www.microsoft.com");
-      link.className = "someCSSclass";
-      // For IE only, you can simply set the innerText of the node.
-      // The below code, however, should work on all browsers.
-      var linkText = document.createTextNode("Click me");
-      link.appendChild(linkText);
+      var a = document.createElement("a");
+      var linkText = document.createTextNode("my title text");
+      a.appendChild(linkText);
+      a.title = "my title text";
+      a.href = "http://example.com";
+      let link = document.body.appendChild(a);
 
       const tableInformation = [
         ["Total Price", "Release Date", "Total Stock", "Mass Variants Link"],
