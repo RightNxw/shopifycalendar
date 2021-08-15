@@ -24,6 +24,7 @@ router.post("/newmonthentries", async (req, res) => {
     stock: req.body.stock,
     sizeVars: req.body.sizeVars,
     vars: req.body.vars,
+    MassVariants: req.body.MassVariants,
     stockList: req.body.stockList,
     time: req.body.time,
   });
@@ -40,7 +41,7 @@ router.post("/clear", async (req, res) => {
   try {
     if (req.body.clear === true) {
       Shoe.deleteMany({}, (err) => console.log(err));
-      console.log("removing" + new Date().toUTCString()); // this
+      console.log("removing" + new Date().toUTCString());
       res.json({ cleared: true });
     }
   } catch (err) {

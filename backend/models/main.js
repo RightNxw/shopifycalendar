@@ -33,6 +33,11 @@ const shoeSchema = new mongoose.Schema({
     type: Array,
     required: false,
   },
+  MassVariants: {
+    type: String,
+    required: false,
+  },
+
   stockList: {
     type: Array,
     require: false,
