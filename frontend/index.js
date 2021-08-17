@@ -326,7 +326,7 @@ function _0x2dfb() {
     "button-",
     "removeChild",
     "centerImg",
-    "Variants\x20Have\x20Been\x20Pasted",
+    "Variants\x20Have\x20Been\x20Copied",
     "addEventListener",
     "307328YVNxfY",
     "440dKZGUO",
