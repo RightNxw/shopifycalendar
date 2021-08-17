@@ -1,326 +1,391 @@
-const _0x5299f1 = _0x2ff3;
-(function (_0x17938f, _0x2f4821) {
-  const _0x1205dc = _0x2ff3,
-    _0x388276 = _0x17938f();
+const _0x55c49c = _0x233e;
+(function (_0xea27e3, _0x2e786e) {
+  const _0x22b1ca = _0x233e,
+    _0x54889b = _0xea27e3();
   while (!![]) {
     try {
-      const _0x294a9f =
-        parseInt(_0x1205dc(0xc3)) / 0x1 +
-        -parseInt(_0x1205dc(0xd1)) / 0x2 +
-        (parseInt(_0x1205dc(0xb2)) / 0x3) * (-parseInt(_0x1205dc(0xb6)) / 0x4) +
-        (parseInt(_0x1205dc(0xc9)) / 0x5) * (parseInt(_0x1205dc(0xaf)) / 0x6) +
-        parseInt(_0x1205dc(0xbc)) / 0x7 +
-        parseInt(_0x1205dc(0xd7)) / 0x8 +
-        (-parseInt(_0x1205dc(0xc2)) / 0x9) * (parseInt(_0x1205dc(0xca)) / 0xa);
-      if (_0x294a9f === _0x2f4821) break;
-      else _0x388276["push"](_0x388276["shift"]());
-    } catch (_0x4dd7c4) {
-      _0x388276["push"](_0x388276["shift"]());
+      const _0x392d00 =
+        -parseInt(_0x22b1ca(0xf4)) / 0x1 +
+        -parseInt(_0x22b1ca(0x128)) / 0x2 +
+        (-parseInt(_0x22b1ca(0xf6)) / 0x3) * (parseInt(_0x22b1ca(0xed)) / 0x4) +
+        (parseInt(_0x22b1ca(0xe7)) / 0x5) *
+          (-parseInt(_0x22b1ca(0x103)) / 0x6) +
+        (parseInt(_0x22b1ca(0x132)) / 0x7) *
+          (-parseInt(_0x22b1ca(0x10c)) / 0x8) +
+        (parseInt(_0x22b1ca(0xee)) / 0x9) * (parseInt(_0x22b1ca(0x12d)) / 0xa) +
+        (-parseInt(_0x22b1ca(0xf5)) / 0xb) * (-parseInt(_0x22b1ca(0xe9)) / 0xc);
+      if (_0x392d00 === _0x2e786e) break;
+      else _0x54889b["push"](_0x54889b["shift"]());
+    } catch (_0x5e1837) {
+      _0x54889b["push"](_0x54889b["shift"]());
     }
   }
-})(_0x5db6, 0x50fe4);
-function _0x2ff3(_0x5b3bcb, _0x3f9b18) {
-  const _0x5db674 = _0x5db6();
+})(_0x2dfb, 0xc62bc);
+function _0x233e(_0x4c9478, _0x521325) {
+  const _0x2dfbf0 = _0x2dfb();
   return (
-    (_0x2ff3 = function (_0x2ff3a0, _0x3d3230) {
-      _0x2ff3a0 = _0x2ff3a0 - 0xa3;
-      let _0x29452b = _0x5db674[_0x2ff3a0];
-      return _0x29452b;
+    (_0x233e = function (_0x233e45, _0xdd5c3d) {
+      _0x233e45 = _0x233e45 - 0xe1;
+      let _0x350fe = _0x2dfbf0[_0x233e45];
+      return _0x350fe;
     }),
-    _0x2ff3(_0x5b3bcb, _0x3f9b18)
+    _0x233e(_0x4c9478, _0x521325)
   );
 }
 let jsonShoes;
-fetch(_0x5299f1(0xb3), {
-  headers: { Accept: _0x5299f1(0xb0), "Content-Type": "application/json" },
-  method: _0x5299f1(0xe4),
+fetch(_0x55c49c(0x110), {
+  headers: { Accept: _0x55c49c(0x116), "Content-Type": _0x55c49c(0x116) },
+  method: _0x55c49c(0xe6),
 })
-  ["then"]((_0x92a664) => _0x92a664["json"]())
-  ["then"]((_0x293d89) => {
-    jsonShoes = _0x293d89;
+  ["then"]((_0x55c80d) => _0x55c80d[_0x55c49c(0x130)]())
+  ["then"]((_0x4eda87) => {
+    jsonShoes = _0x4eda87;
   })
-  [_0x5299f1(0xe5)](() => {
-    const _0x5c2554 = _0x5299f1;
-    class _0x39b552 {
-      constructor(_0x2b08e4) {
-        const _0x29778c = _0x2ff3;
+  [_0x55c49c(0x124)](() => {
+    const _0x10f049 = _0x55c49c;
+    class _0x30cc36 {
+      constructor(_0x447283) {
+        const _0x12d907 = _0x233e;
         return (
-          (this["p"] = document[_0x29778c(0xae)]("p")),
-          (this["p"]["textContent"] = _0x2b08e4),
+          (this["p"] = document["createElement"]("p")),
+          (this["p"][_0x12d907(0x118)] = _0x447283),
           this["p"]
         );
       }
     }
-    class _0x569b28 {
+    class _0x6adb80 {
       constructor() {
-        const _0x3ea2d5 = _0x2ff3;
+        const _0x48c3bf = _0x233e;
         return (
-          (this["div"] = document[_0x3ea2d5(0xae)](_0x3ea2d5(0xb7))),
+          (this["div"] = document[_0x48c3bf(0x129)](_0x48c3bf(0x120))),
           this["div"]
         );
       }
     }
-    class _0x3a4e99 {
-      constructor(_0x560836) {
-        const _0x32fb0d = _0x2ff3;
+    class _0xd13f5b {
+      constructor(_0x10c57e) {
+        const _0x3a6e7b = _0x233e;
         return (
-          (this[_0x32fb0d(0xe1)] = document["createElement"](_0x32fb0d(0xe1))),
-          (this[_0x32fb0d(0xe1)][_0x32fb0d(0xd8)] = _0x560836),
-          this[_0x32fb0d(0xe1)][_0x32fb0d(0xc7)][_0x32fb0d(0xbe)](
-            _0x32fb0d(0xbf)
+          (this[_0x3a6e7b(0x131)] = document["createElement"](
+            _0x3a6e7b(0x131)
+          )),
+          (this["img"][_0x3a6e7b(0x121)] = _0x10c57e),
+          this[_0x3a6e7b(0x131)][_0x3a6e7b(0x12c)][_0x3a6e7b(0xfa)](
+            _0x3a6e7b(0x10a)
           ),
-          (this[_0x32fb0d(0xc0)] = new _0x569b28()),
-          this[_0x32fb0d(0xc0)][_0x32fb0d(0xc7)][_0x32fb0d(0xbe)]("center-img"),
-          this[_0x32fb0d(0xc0)]["appendChild"](this[_0x32fb0d(0xe1)]),
-          (this[_0x32fb0d(0xcf)] = new _0x569b28()),
-          this["containerImg"][_0x32fb0d(0xc7)][_0x32fb0d(0xbe)](
-            _0x32fb0d(0xb5)
+          (this[_0x3a6e7b(0xf1)] = new _0x6adb80()),
+          this[_0x3a6e7b(0xf1)]["classList"][_0x3a6e7b(0xfa)](_0x3a6e7b(0x11f)),
+          this[_0x3a6e7b(0xf1)][_0x3a6e7b(0xfb)](this[_0x3a6e7b(0x131)]),
+          (this[_0x3a6e7b(0xf7)] = new _0x6adb80()),
+          this[_0x3a6e7b(0xf7)][_0x3a6e7b(0x12c)][_0x3a6e7b(0xfa)](
+            _0x3a6e7b(0x12f)
           ),
-          this[_0x32fb0d(0xcf)][_0x32fb0d(0xa3)](this[_0x32fb0d(0xc0)]),
-          this[_0x32fb0d(0xcf)]
+          this[_0x3a6e7b(0xf7)][_0x3a6e7b(0xfb)](this[_0x3a6e7b(0xf1)]),
+          this[_0x3a6e7b(0xf7)]
         );
       }
     }
-    class _0x528fad {
-      constructor(_0x132888) {
-        const _0x48faed = _0x2ff3;
+    class _0x45d765 {
+      constructor(_0x3b3949) {
+        const _0x46e269 = _0x233e;
         return (
-          (this["td"] = document[_0x48faed(0xae)]("td")),
-          (this["td"][_0x48faed(0xb4)] = _0x132888),
+          (this["td"] = document["createElement"]("td")),
+          (this["td"][_0x46e269(0x118)] = _0x3b3949),
           this["td"]
         );
       }
     }
-    class _0x3c434b {
-      constructor(_0x1d2623) {
-        const _0x221b9a = _0x2ff3;
-        (this[_0x221b9a(0xdc)] = document[_0x221b9a(0xae)](_0x221b9a(0xdc))),
-          this["tbody"]["classList"][_0x221b9a(0xbe)](_0x221b9a(0xe6));
-        for (const _0x179724 of _0x1d2623)
-          this[_0x221b9a(0xdc)][_0x221b9a(0xa3)](_0x179724);
-        return this[_0x221b9a(0xdc)];
+    class _0x4cfb36 {
+      constructor(_0xadbf58) {
+        const _0x24f7b8 = _0x233e;
+        (this["tbody"] = document[_0x24f7b8(0x129)](_0x24f7b8(0x102))),
+          this["tbody"][_0x24f7b8(0x12c)][_0x24f7b8(0xfa)](_0x24f7b8(0xfc));
+        for (const _0x39d846 of _0xadbf58)
+          this[_0x24f7b8(0x102)][_0x24f7b8(0xfb)](_0x39d846);
+        return this[_0x24f7b8(0x102)];
       }
     }
-    class _0xe2e4c1 {
-      constructor(_0x1de942) {
-        const _0x111649 = _0x2ff3;
+    class _0x5d08a5 {
+      constructor(_0x3d4e3d) {
+        const _0x20662b = _0x233e;
         this["tr"] = document["createElement"]("tr");
-        for (const _0x4c7f49 of _0x1de942)
-          this["tr"][_0x111649(0xa3)](new _0x528fad(_0x4c7f49));
+        for (const _0x22ac84 of _0x3d4e3d)
+          this["tr"][_0x20662b(0xfb)](new _0x45d765(_0x22ac84));
         return this["tr"];
       }
     }
-    class _0x30a082 {
-      constructor(_0x33822f, _0x2c0da1, _0x4ca9c2) {
-        const _0x1cdd7a = _0x2ff3;
-        (this[_0x1cdd7a(0xe2)] = document["createElement"](_0x1cdd7a(0xe2))),
-          this[_0x1cdd7a(0xe2)][_0x1cdd7a(0xc7)][_0x1cdd7a(0xbe)](
-            _0x1cdd7a(0xe3)
+    class _0x5a0649 {
+      constructor(_0x35c088, _0x168e90, _0x2a63b6) {
+        const _0x3c508b = _0x233e;
+        (this[_0x3c508b(0x10d)] = document[_0x3c508b(0x129)](_0x3c508b(0x10d))),
+          this[_0x3c508b(0x10d)][_0x3c508b(0x12c)][_0x3c508b(0xfa)](
+            _0x3c508b(0x117)
           ),
-          (this["table"]["id"] = _0x33822f);
-        const _0x2695e2 = [];
-        for (const _0x314294 of _0x2c0da1)
-          _0x2695e2["push"](new _0xe2e4c1(_0x314294));
-        this[_0x1cdd7a(0xe2)]["appendChild"](new _0x3c434b(_0x2695e2));
-        if (!_0x4ca9c2)
-          this[_0x1cdd7a(0xe2)]["classList"][_0x1cdd7a(0xbe)](_0x1cdd7a(0xdb));
-        return this["table"];
+          (this[_0x3c508b(0x10d)]["id"] = _0x35c088);
+        const _0xfc6e62 = [];
+        for (const _0x15a8c3 of _0x168e90)
+          _0xfc6e62[_0x3c508b(0xe1)](new _0x5d08a5(_0x15a8c3));
+        this[_0x3c508b(0x10d)][_0x3c508b(0xfb)](new _0x4cfb36(_0xfc6e62));
+        if (!_0x2a63b6)
+          this[_0x3c508b(0x10d)]["classList"][_0x3c508b(0xfa)](
+            _0x3c508b(0x12a)
+          );
+        return this[_0x3c508b(0x10d)];
       }
     }
-    class _0x283fd2 {
-      constructor(_0x4a56ba, _0x34969e) {
-        const _0xaacc1c = _0x2ff3;
+    class _0x310b30 {
+      constructor(_0x400189, _0x5ee176) {
+        const _0x3f0f04 = _0x233e;
         return (
-          (this["id"] = "button-" + _0x4a56ba),
-          (this[_0xaacc1c(0xde)] = document[_0xaacc1c(0xae)](_0xaacc1c(0xde))),
-          this[_0xaacc1c(0xde)]["classList"][_0xaacc1c(0xbe)](_0xaacc1c(0xc4)),
-          (this[_0xaacc1c(0xde)][_0xaacc1c(0xb4)] = _0x34969e),
-          this[_0xaacc1c(0xde)][_0xaacc1c(0xa4)](
-            _0xaacc1c(0xdd),
-            this[_0xaacc1c(0xd5)](_0x4a56ba)
+          (this["id"] = "button-" + _0x400189),
+          (this[_0x3f0f04(0x125)] = document[_0x3f0f04(0x129)]("button")),
+          this[_0x3f0f04(0x125)]["classList"]["add"](_0x3f0f04(0x106)),
+          (this[_0x3f0f04(0x125)]["textContent"] = _0x5ee176),
+          this[_0x3f0f04(0x125)]["addEventListener"](
+            _0x3f0f04(0x104),
+            this[_0x3f0f04(0xf9)](_0x400189)
           ),
-          (this[_0xaacc1c(0xde)]["id"] = this["id"]),
-          this[_0xaacc1c(0xde)]
+          (this["button"]["id"] = this["id"]),
+          this[_0x3f0f04(0x125)]
         );
       }
-      [_0x5c2554(0xd5)](_0x13c911) {
-        const _0x4b5d4c = () => {
-          const _0x3b037b = _0x2ff3,
-            _0x4c0b85 = document[_0x3b037b(0xaa)](_0x3b037b(0xcb) + _0x13c911),
-            _0x3e5316 = document[_0x3b037b(0xaa)](this["id"]);
-          _0x4c0b85["classList"][_0x3b037b(0xc5)](_0x3b037b(0xdb))
-            ? ((_0x4c0b85[_0x3b037b(0xce)] = _0x3b037b(0xe3)),
-              (_0x3e5316[_0x3b037b(0xb4)] = _0x3b037b(0xa9)))
-            : (_0x4c0b85[_0x3b037b(0xc7)]["add"](_0x3b037b(0xdb)),
-              (_0x3e5316[_0x3b037b(0xb4)] = _0x3b037b(0xc8)));
+      ["getHandleClick"](_0x56faaf) {
+        const _0xf71e33 = () => {
+          const _0x924729 = _0x233e,
+            _0x29f933 = document[_0x924729(0x119)]("table-sizes-" + _0x56faaf),
+            _0x1c52d0 = document["getElementById"](this["id"]);
+          _0x29f933["classList"]["contains"](_0x924729(0x12a))
+            ? ((_0x29f933[_0x924729(0xff)] = _0x924729(0x117)),
+              (_0x1c52d0[_0x924729(0x118)] = _0x924729(0x10f)))
+            : (_0x29f933[_0x924729(0x12c)][_0x924729(0xfa)](_0x924729(0x12a)),
+              (_0x1c52d0[_0x924729(0x118)] = "Display\x20Variants"));
         };
-        return _0x4b5d4c;
+        return _0xf71e33;
       }
     }
-    class _0x11bebf {
-      constructor(_0x5bfe9a, _0x42f1bb, _0x1e5b65) {
-        const _0x5a1398 = _0x5c2554;
-        (this["id"] = _0x5a1398(0xd3) + _0x5bfe9a),
-          this["initCard"](),
-          this[_0x5a1398(0xb8)](_0x42f1bb),
-          this[_0x5a1398(0xa8)](_0x1e5b65),
-          this[_0x5a1398(0xa7)](_0x5bfe9a);
+    class _0x313216 {
+      constructor(_0x4c6045, _0x47b013, _0x45bc72) {
+        const _0x2c2b5d = _0x233e;
+        return (
+          (this["id"] = _0x2c2b5d(0xef) + _0x4c6045),
+          (this[_0x2c2b5d(0x125)] = document[_0x2c2b5d(0x129)](
+            _0x2c2b5d(0x125)
+          )),
+          this["button"][_0x2c2b5d(0x12c)][_0x2c2b5d(0xfa)](_0x2c2b5d(0x106)),
+          (this["button"][_0x2c2b5d(0x118)] = _0x47b013),
+          this[_0x2c2b5d(0x125)][_0x2c2b5d(0xf3)](
+            _0x2c2b5d(0x104),
+            this[_0x2c2b5d(0xf9)](_0x4c6045)
+          ),
+          (this[_0x2c2b5d(0x125)]["id"] = this["id"]),
+          (this[_0x2c2b5d(0x11a)] = _0x45bc72),
+          this[_0x2c2b5d(0x125)]
+        );
       }
-      ["build"]() {
-        const _0x39f4ae = _0x5c2554;
-        return this[_0x39f4ae(0xd4)];
+      [_0x10f049(0xf9)]() {
+        const _0x4c3833 = () => {
+          const _0x5a028f = _0x233e;
+          console[_0x5a028f(0x109)](this[_0x5a028f(0x11a)]);
+          var _0x20feac = document[_0x5a028f(0x129)](_0x5a028f(0x11e));
+          document[_0x5a028f(0xea)]["appendChild"](_0x20feac),
+            (_0x20feac["value"] = this[_0x5a028f(0x11a)]),
+            _0x20feac[_0x5a028f(0x107)](),
+            document[_0x5a028f(0x113)](_0x5a028f(0x115)),
+            alert(_0x5a028f(0xf2)),
+            document["body"][_0x5a028f(0xf0)](_0x20feac);
+        };
+        return _0x4c3833;
       }
-      [_0x5c2554(0xc6)]() {
-        const _0x961180 = _0x5c2554;
-        (this[_0x961180(0xd4)] = new _0x569b28()),
-          this[_0x961180(0xd4)]["classList"][_0x961180(0xbe)](_0x961180(0xd4)),
-          (this[_0x961180(0xd4)]["id"] = this["id"]);
+    }
+    class _0x495c43 {
+      constructor(_0xa408f1, _0x2c5efa, _0x4cab17, _0x38bf6e) {
+        const _0x3e72dd = _0x10f049;
+        (this["id"] = _0x3e72dd(0x114) + _0xa408f1),
+          this[_0x3e72dd(0x101)](),
+          this["setTitle"](_0x2c5efa),
+          this[_0x3e72dd(0xf8)](_0x4cab17),
+          this[_0x3e72dd(0x12b)](_0xa408f1),
+          this[_0x3e72dd(0x126)](_0x38bf6e);
       }
-      [_0x5c2554(0xb8)](_0x44652f) {
-        const _0x43fbd8 = _0x5c2554;
-        (this[_0x43fbd8(0xbb)] = new _0x39b552(_0x44652f)),
-          this[_0x43fbd8(0xbb)][_0x43fbd8(0xc7)][_0x43fbd8(0xbe)]("name-shoe"),
-          this[_0x43fbd8(0xd4)][_0x43fbd8(0xa3)](this[_0x43fbd8(0xbb)]);
+      [_0x10f049(0xec)]() {
+        const _0x12f190 = _0x10f049;
+        return this[_0x12f190(0x108)];
       }
-      [_0x5c2554(0xa8)](_0x4eb45c) {
-        const _0x508633 = _0x5c2554;
-        (this[_0x508633(0xe0)] = new _0x3a4e99(_0x4eb45c)),
-          this[_0x508633(0xd4)][_0x508633(0xa3)](this[_0x508633(0xe0)]);
+      [_0x10f049(0x101)]() {
+        const _0xb758b7 = _0x10f049;
+        (this[_0xb758b7(0x108)] = new _0x6adb80()),
+          this[_0xb758b7(0x108)][_0xb758b7(0x12c)][_0xb758b7(0xfa)](
+            _0xb758b7(0x108)
+          ),
+          (this[_0xb758b7(0x108)]["id"] = this["id"]);
       }
-      [_0x5c2554(0xbd)](_0x2d279a, _0x55151f, _0x42df70 = !![]) {
-        const _0x25c43d = _0x5c2554;
-        (this[_0x25c43d(0xe2)] = new _0x30a082(
-          _0x2d279a + "-" + this["id"],
-          _0x55151f,
-          _0x42df70
+      [_0x10f049(0x100)](_0x22a89a) {
+        const _0x2383e5 = _0x10f049;
+        (this[_0x2383e5(0xfe)] = new _0x30cc36(_0x22a89a)),
+          this[_0x2383e5(0xfe)][_0x2383e5(0x12c)][_0x2383e5(0xfa)](
+            _0x2383e5(0x11b)
+          ),
+          this[_0x2383e5(0x108)][_0x2383e5(0xfb)](this[_0x2383e5(0xfe)]);
+      }
+      [_0x10f049(0xf8)](_0x2a0adc) {
+        const _0x394f3b = _0x10f049;
+        (this[_0x394f3b(0x12e)] = new _0xd13f5b(_0x2a0adc)),
+          this[_0x394f3b(0x108)][_0x394f3b(0xfb)](this[_0x394f3b(0x12e)]);
+      }
+      [_0x10f049(0x111)](_0x52f773, _0x368961, _0xf0fb67 = !![]) {
+        const _0x256bf1 = _0x10f049;
+        (this[_0x256bf1(0x10d)] = new _0x5a0649(
+          _0x52f773 + "-" + this["id"],
+          _0x368961,
+          _0xf0fb67
         )),
-          this["card"][_0x25c43d(0xa3)](this[_0x25c43d(0xe2)]);
+          this[_0x256bf1(0x108)][_0x256bf1(0xfb)](this["table"]);
       }
-      ["setButton"]() {
-        const _0x28d6ef = _0x5c2554;
-        (this[_0x28d6ef(0xde)] = new _0x283fd2(this["id"], _0x28d6ef(0xc8))),
-          this[_0x28d6ef(0xd4)][_0x28d6ef(0xa3)](this[_0x28d6ef(0xde)]);
+      [_0x10f049(0x12b)]() {
+        const _0x2321ee = _0x10f049;
+        (this[_0x2321ee(0x125)] = new _0x310b30(
+          this["id"],
+          "Display\x20Variants"
+        )),
+          this[_0x2321ee(0x108)][_0x2321ee(0xfb)](this[_0x2321ee(0x125)]);
+      }
+      [_0x10f049(0x126)](_0x4cb1c5) {
+        const _0x271e6a = _0x10f049;
+        (this[_0x271e6a(0x125)] = new _0x313216(
+          this["id"],
+          _0x271e6a(0xeb),
+          _0x4cb1c5
+        )),
+          this[_0x271e6a(0x108)]["appendChild"](this[_0x271e6a(0x125)]);
       }
     }
-    const _0x4d1e73 = [];
-    jsonShoes[_0x5c2554(0xcc)]((_0x5996fb, _0x5b2c77) => {
-      const _0x23338b = _0x5c2554,
-        _0x2322db = [
-          [
-            _0x23338b(0xd9),
-            _0x23338b(0xab),
-            _0x23338b(0xa5),
-            "Mass\x20Variants\x20Link",
-          ],
-          [
-            _0x5996fb["price"],
-            _0x5996fb[_0x23338b(0xad)],
-            _0x5996fb["stock"],
-            _0x5996fb[_0x23338b(0xba)],
-          ],
+    const _0x401453 = [];
+    jsonShoes[_0x10f049(0xe3)]((_0x3a254f, _0x25b9f9) => {
+      const _0x14cf86 = _0x10f049,
+        _0x40e3aa = [
+          [_0x14cf86(0x10b), _0x14cf86(0x127), _0x14cf86(0x105)],
+          [_0x3a254f[_0x14cf86(0xe8)], _0x3a254f["date"], _0x3a254f["stock"]],
         ],
-        _0x3c3447 = [[_0x23338b(0xda), _0x23338b(0xd2), _0x23338b(0xcd)]],
-        _0x2b1592 = _0x5996fb["vars"][0x0]["split"]("\x0a"),
-        _0xed640a = _0x5996fb[_0x23338b(0xdf)][0x0][_0x23338b(0xa6)]("\x0a"),
-        _0x4347c5 = _0x5996fb["stockList"][0x0][_0x23338b(0xa6)]("\x0a");
+        _0x530e15 = [["Variants", _0x14cf86(0x112), _0x14cf86(0x11d)]],
+        _0x11fc06 = [[_0x14cf86(0xeb)]],
+        _0x1f7958 = _0x3a254f[_0x14cf86(0x10e)][0x0]["split"]("\x0a"),
+        _0x3e0705 = _0x3a254f[_0x14cf86(0x133)][0x0]["split"]("\x0a"),
+        _0x2f72e7 = _0x3a254f[_0x14cf86(0x11c)][0x0][_0x14cf86(0x123)]("\x0a"),
+        _0x3d09b0 = _0x3a254f[_0x14cf86(0x10e)][0x0];
       for (
-        let _0x1efe21 = 0x0;
-        _0x1efe21 < _0x2b1592["length"] - 0x1;
-        _0x1efe21++
+        let _0x514fec = 0x0;
+        _0x514fec < _0x1f7958[_0x14cf86(0xe2)] - 0x1;
+        _0x514fec++
       )
-        _0x3c3447[_0x23338b(0xb1)]([
-          _0x2b1592[_0x1efe21],
-          _0xed640a[_0x1efe21],
-          _0x4347c5[_0x1efe21],
+        _0x530e15[_0x14cf86(0xe1)]([
+          _0x1f7958[_0x514fec],
+          _0x3e0705[_0x514fec],
+          _0x2f72e7[_0x514fec],
         ]);
-      const _0x3d8d1c = new _0x11bebf(
-        _0x5b2c77,
-        _0x5996fb[_0x23338b(0xb9)],
-        _0x5996fb[_0x23338b(0xe0)]
+      const _0x4a7217 = new _0x495c43(
+        _0x25b9f9,
+        _0x3a254f[_0x14cf86(0xe4)],
+        _0x3a254f[_0x14cf86(0x12e)],
+        _0x3d09b0
       );
-      _0x3d8d1c[_0x23338b(0xbd)]("table-information", _0x2322db),
-        _0x3d8d1c[_0x23338b(0xbd)](_0x23338b(0xd6), _0x3c3447, ![]),
-        _0x4d1e73["push"](_0x3d8d1c[_0x23338b(0xac)]());
+      _0x4a7217["addTable"](_0x14cf86(0x117), _0x40e3aa),
+        _0x4a7217["addTable"](_0x14cf86(0xe5), _0x530e15, ![]),
+        _0x401453[_0x14cf86(0xe1)](_0x4a7217[_0x14cf86(0xec)]());
     });
-    const _0x432197 = document[_0x5c2554(0xaa)](_0x5c2554(0xc1)),
-      _0x595880 = new _0x569b28();
-    _0x595880[_0x5c2554(0xc7)]["add"](_0x5c2554(0xd0));
-    for (const _0x5ad324 of _0x4d1e73) _0x595880[_0x5c2554(0xa3)](_0x5ad324);
-    _0x432197[_0x5c2554(0xa3)](_0x595880);
+    const _0x287fa8 = document[_0x10f049(0x119)](_0x10f049(0xfd)),
+      _0x45fe0e = new _0x6adb80();
+    _0x45fe0e["classList"]["add"](_0x10f049(0x122));
+    for (const _0x121e12 of _0x401453) _0x45fe0e[_0x10f049(0xfb)](_0x121e12);
+    _0x287fa8[_0x10f049(0xfb)](_0x45fe0e);
   });
-function _0x5db6() {
-  const _0x463d3f = [
-    "Total\x20Stock",
-    "split",
+function _0x2dfb() {
+  const _0x3efa11 = [
     "setButton",
-    "setImage",
-    "Hide\x20Variants",
-    "getElementById",
-    "Release\x20Date",
-    "build",
-    "date",
-    "createElement",
-    "6PRzRKa",
-    "application/json",
-    "push",
-    "11727HSaHWq",
-    "https://andromeda-tools.herokuapp.com/shoesjson",
-    "textContent",
-    "container-img",
-    "436rpBEWu",
-    "div",
-    "setTitle",
-    "name",
-    "MassVariants",
-    "title",
-    "1652084NcezXX",
-    "addTable",
-    "add",
-    "image-shoe",
-    "centerImg",
-    "root",
-    "1204857xIukOl",
-    "260482UxOozl",
-    "btn",
-    "contains",
-    "initCard",
     "classList",
-    "Display\x20Variants",
-    "2417405WmbsDN",
-    "30ZxtPYs",
-    "table-sizes-",
-    "forEach",
-    "Stock",
-    "className",
-    "containerImg",
-    "container-cards",
-    "441416FUtRCo",
-    "Variants\x20With\x20Stock",
-    "card-",
-    "card",
-    "getHandleClick",
-    "table-sizes",
-    "3201448zBfgzj",
-    "src",
-    "Total\x20Price",
-    "Variants",
-    "table-hidden",
-    "tbody",
-    "click",
-    "button",
-    "sizeVars",
+    "1246890zYEPPt",
     "image",
+    "container-img",
+    "json",
     "img",
-    "table",
-    "table-information",
+    "21ZEqBRX",
+    "sizeVars",
+    "push",
+    "length",
+    "forEach",
+    "name",
+    "table-sizes",
     "GET",
-    "then",
-    "table-body-information",
-    "appendChild",
+    "98085KthbUX",
+    "price",
+    "1611264NZsLnG",
+    "body",
+    "Copy\x20Variants",
+    "build",
+    "4dnRAox",
+    "72IwbkUc",
+    "button-",
+    "removeChild",
+    "centerImg",
+    "Variants\x20Have\x20Been\x20Pasted",
     "addEventListener",
+    "307328YVNxfY",
+    "440dKZGUO",
+    "2522634viUWxb",
+    "containerImg",
+    "setImage",
+    "getHandleClick",
+    "add",
+    "appendChild",
+    "table-body-information",
+    "root",
+    "title",
+    "className",
+    "setTitle",
+    "initCard",
+    "tbody",
+    "450UBSXBB",
+    "click",
+    "Total\x20Stock",
+    "btn",
+    "select",
+    "card",
+    "log",
+    "image-shoe",
+    "Total\x20Price",
+    "3588592FmiULD",
+    "table",
+    "vars",
+    "Hide\x20Variants",
+    "https://andromeda-tools.herokuapp.com/shoesjson",
+    "addTable",
+    "Variants\x20With\x20Stock",
+    "execCommand",
+    "card-",
+    "copy",
+    "application/json",
+    "table-information",
+    "textContent",
+    "getElementById",
+    "var",
+    "name-shoe",
+    "stockList",
+    "Stock",
+    "textarea",
+    "center-img",
+    "div",
+    "src",
+    "container-cards",
+    "split",
+    "then",
+    "button",
+    "setButton2",
+    "Release\x20Date",
+    "3182962ehaeQi",
+    "createElement",
+    "table-hidden",
   ];
-  _0x5db6 = function () {
-    return _0x463d3f;
+  _0x2dfb = function () {
+    return _0x3efa11;
   };
-  return _0x5db6();
+  return _0x2dfb();
 }
