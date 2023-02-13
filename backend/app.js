@@ -126,4 +126,5 @@ function update() {
     console.log("done" + new Date().toUTCString());
   })();
 }
-update();
+setTimeout(update, 7200000);
+
